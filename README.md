@@ -1,2 +1,2 @@
 # amriteshsrivastava.com
-My website - amriteshsrivastava.com
+My website - AmriteshSrivastava.com
