@@ -316,7 +316,7 @@
 										Karnataka, India<br>
 									</li>
 									<li class="footer-sprite email">
-										<a href="mailto:query@amriteshsrivastava.com">query@amriteshsrivastava.com</a>
+										<a href="mailto:srivastava.amritesh09@gmail.com">query@amriteshsrivastava.com</a>
 									</li>
 								</ul>
 							</address>
@@ -428,7 +428,7 @@
 					showLoading();
 					$.ajax({
 						type: "GET",
-						url: "../AJAXFunctions.php",
+						url: "../AJAXFunctions.php.php",
 						data: {
 							no: "1", name: name, email: email, tel: tel, message: message
 						},
@@ -458,7 +458,7 @@
 						},
 						error: function() {
 							popup.children('p').remove();
-							popup.append("<p>Oops! Error encountered while submitting the request. Please try again or mail to <code>query@amriteshsrivastava.com</code></p>").fadeIn();
+							popup.append("<p>Oops! Error encountered while submitting the request. Please try again or mail to <code>srivastava.amritesh09@gmail.com</code></p>").fadeIn();
 						},
 						complete: function() {
 							hideLoading();
